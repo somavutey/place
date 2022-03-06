@@ -1,25 +1,31 @@
-
-import Script from 'next/script'
-//import '../styles/globals.css'
-import { AuthUserProvider } from '../Homework/AuthUserContext';
+import Script from "next/script";
+import "../styles/globals.css";
+import { AuthUserProvider } from "../Homework/AuthUserContext";
 import { RecoilRoot } from "recoil";
-import Head from 'next/head'
+import Head from "next/head";
 function MyApp({ Component, pageProps }) {
   return (
     <div>
-      < RecoilRoot>
+      <RecoilRoot>
         <Head>
-          < script async src="https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.js"></ script >
-          <link href="https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.css" rel="stylesheet" />
+          <script
+            async
+            src="https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.js"
+          ></script>
+          <link
+            href="https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.css"
+            rel="stylesheet"
+          />
         </Head>
-        <AuthUserProvider><Component {...pageProps} /></AuthUserProvider>
+        <AuthUserProvider>
+          <Component {...pageProps} />
+        </AuthUserProvider>
       </RecoilRoot>
-    </div>)
+    </div>
+  );
 }
 
-export default MyApp
-
-
+export default MyApp;
 
 // import Navbar from '../components/containers/NavBar'
 // import Head from 'next/head'
