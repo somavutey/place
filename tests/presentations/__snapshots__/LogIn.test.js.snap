@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogIn 1`] = `
+<ForwardRef(Container)
+  component="main"
+  maxWidth="xs"
+>
+  <CssBaseline />
+  <div
+    className="makeStyles-paper-1"
+  >
+    <div
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <ForwardRef(Link)
+        href="/"
+      >
+        <Image
+          alt="LogoProject"
+          height={170}
+          src="/LogoProject.svg"
+          width={170}
+        />
+      </ForwardRef(Link)>
+    </div>
+    <ForwardRef(Typography)
+      component="h1"
+      style={
+        Object {
+          "marginBottom": "24px",
+          "textAlign": "center",
+        }
+      }
+      variant="h5"
+    >
+      Log In
+    </ForwardRef(Typography)>
+    <form
+      className="makeStyles-form-2"
+      noValidate={true}
+      onSubmit={[Function]}
+    >
+      <ForwardRef(Grid)
+        container={true}
+        justifyContent="center"
+        spacing={2}
+      >
+        <ForwardRef(Grid)
+          item={true}
+          xs={12}
+        >
+          <ForwardRef(TextField)
+            autoComplete="email"
+            fullWidth={true}
+            id="email"
+            label="Email Address"
+            name="email"
+            required={true}
+            variant="outlined"
+          />
+        </ForwardRef(Grid)>
+        <ForwardRef(Grid)
+          item={true}
+          xs={12}
+        >
+          <ForwardRef(TextField)
+            autoComplete="current-password"
+            fullWidth={true}
+            id="password"
+            label="Password"
+            name="password"
+            required={true}
+            type="password"
+            variant="outlined"
+          />
+        </ForwardRef(Grid)>
+        <ForwardRef(Grid)
+          item={true}
+          xs={12}
+        >
+          <ForwardRef(Typography)
+            color="error"
+            component="h6"
+            style={
+              Object {
+                "margin": "-5px",
+                "textAlign": "center",
+              }
+            }
+          />
+        </ForwardRef(Grid)>
+        <ForwardRef(Grid)
+          item={true}
+          xs={12}
+        >
+          <ForwardRef(ButtonBase)>
+            <ForwardRef(Link)
+              onClick={[Function]}
+            >
+              <a>
+                Forgot Password?
+              </a>
+            </ForwardRef(Link)>
+          </ForwardRef(ButtonBase)>
+        </ForwardRef(Grid)>
+        <ForwardRef(Grid)
+          item={true}
+          xs={1.5}
+        >
+          <ForwardRef(ButtonBase)
+            onClick={[Function]}
+          >
+            <img
+              src="/facebook.png"
+              style={
+                Object {
+                  "height": 40,
+                  "width": 40,
+                }
+              }
+            />
+          </ForwardRef(ButtonBase)>
+        </ForwardRef(Grid)>
+        <ForwardRef(Grid)
+          item={true}
+          xs={1.5}
+        >
+          <ForwardRef(ButtonBase)
+            onClick={[Function]}
+          >
+            <img
+              src="/google.png"
+              style={
+                Object {
+                  "height": 40,
+                  "width": 40,
+                }
+              }
+            />
+          </ForwardRef(ButtonBase)>
+        </ForwardRef(Grid)>
+      </ForwardRef(Grid)>
+      <ForwardRef(Button)
+        className="makeStyles-submit-3"
+        color="primary"
+        fullWidth={true}
+        type="submit"
+        variant="contained"
+      >
+        Log in
+      </ForwardRef(Button)>
+      <ForwardRef(Grid)
+        container={true}
+        justifyContent="flex-end"
+      >
+        <ForwardRef(Grid)
+          item={true}
+        >
+          <ForwardRef(Link)
+            href="/signup"
+            variant="body2"
+          >
+            Doesn't Have Account? Sign up
+          </ForwardRef(Link)>
+        </ForwardRef(Grid)>
+      </ForwardRef(Grid)>
+    </form>
+  </div>
+  <ForwardRef(Box)
+    mt={5}
+  >
+    <Copyright />
+  </ForwardRef(Box)>
+</ForwardRef(Container)>
+`;

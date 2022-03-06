@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar 1`] = `
+<Fragment>
+  <Styled(div)>
+    <ForwardRef(Grid)
+      alignItems="flex-end"
+      container={true}
+      spacing={1}
+    >
+      <ForwardRef(Grid)
+        className="makeStyles-formControl-1"
+        item={true}
+      >
+        <ForwardRef(TextField)
+          id="input-with-icon-grid"
+          label="Search"
+          size="small"
+          variant="outlined"
+        />
+      </ForwardRef(Grid)>
+      <ForwardRef(Grid)
+        item={true}
+      >
+        <Memo(ForwardRef(SearchIcon)) />
+      </ForwardRef(Grid)>
+    </ForwardRef(Grid)>
+    <ForwardRef(FormControl)
+      className="makeStyles-formControl-1"
+    >
+      <ForwardRef(InputLabel)
+        id="demo-mutiple-name-label"
+      >
+        Region
+      </ForwardRef(InputLabel)>
+      <ForwardRef(Select)
+        MenuProps={
+          Object {
+            "PaperProps": Object {
+              "style": Object {
+                "maxHeight": 224,
+              },
+            },
+          }
+        }
+        id="demo-mutiple-name"
+        input={<ForwardRef(Input) />}
+        labelId="demo-mutiple-name-label"
+        multiple={true}
+        onChange={[Function]}
+        size="small"
+        value={Array []}
+      >
+        <ForwardRef(MenuItem)
+          key="Phnom Penh"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Phnom Penh"
+        >
+          Phnom Penh
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Kampot"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Kampot"
+        >
+          Kampot
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Kampong Cham"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Kampong Cham"
+        >
+          Kampong Cham
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Koh Kong"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Koh Kong"
+        >
+          Koh Kong
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Kandal"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Kandal"
+        >
+          Kandal
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Sihanouk Ville"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Sihanouk Ville"
+        >
+          Sihanouk Ville
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Mondol Kiri"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Mondol Kiri"
+        >
+          Mondol Kiri
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Kirirom"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Kirirom"
+        >
+          Kirirom
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Rotanak Kiri"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Rotanak Kiri"
+        >
+          Rotanak Kiri
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Krati"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Krati"
+        >
+          Krati
+        </ForwardRef(MenuItem)>
+      </ForwardRef(Select)>
+    </ForwardRef(FormControl)>
+    <br />
+    <ForwardRef(FormControl)
+      className="makeStyles-formControl-1"
+    >
+      <ForwardRef(InputLabel)
+        id="demo-mutiple-name-label"
+      >
+        Activity
+      </ForwardRef(InputLabel)>
+      <ForwardRef(Select)
+        MenuProps={
+          Object {
+            "PaperProps": Object {
+              "style": Object {
+                "maxHeight": 224,
+              },
+            },
+          }
+        }
+        id="demo-mutiple-name"
+        input={<ForwardRef(Input) />}
+        labelId="demo-mutiple-name-label"
+        multiple={true}
+        onChange={[Function]}
+        size="small"
+        value={Array []}
+      >
+        <ForwardRef(MenuItem)
+          key="Hiking"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Hiking"
+        >
+          Hiking
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Swimming"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Swimming"
+        >
+          Swimming
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Eating & Drinking"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Eating & Drinking"
+        >
+          Eating & Drinking
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Shopping"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Shopping"
+        >
+          Shopping
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Hanging out door"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Hanging out door"
+        >
+          Hanging out door
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Movie"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Movie"
+        >
+          Movie
+        </ForwardRef(MenuItem)>
+      </ForwardRef(Select)>
+    </ForwardRef(FormControl)>
+    <br />
+    <ForwardRef(FormControl)
+      className="makeStyles-formControl-1"
+    >
+      <ForwardRef(InputLabel)
+        id="demo-mutiple-name-label"
+      >
+        Kind of place
+      </ForwardRef(InputLabel)>
+      <ForwardRef(Select)
+        MenuProps={
+          Object {
+            "PaperProps": Object {
+              "style": Object {
+                "maxHeight": 224,
+              },
+            },
+          }
+        }
+        id="demo-mutiple-name"
+        input={<ForwardRef(Input) />}
+        labelId="demo-mutiple-name-label"
+        multiple={true}
+        onChange={[Function]}
+        size="small"
+        value={Array []}
+      >
+        <ForwardRef(MenuItem)
+          key="Peaceful"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Peaceful"
+        >
+          Peaceful
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Modern"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Modern"
+        >
+          Modern
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Outdoor"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Outdoor"
+        >
+          Outdoor
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Indoor"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Indoor"
+        >
+          Indoor
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          key="Natural"
+          style={
+            Object {
+              "fontWeight": true,
+            }
+          }
+          value="Natural"
+        >
+          Natural
+        </ForwardRef(MenuItem)>
+      </ForwardRef(Select)>
+    </ForwardRef(FormControl)>
+  </Styled(div)>
+</Fragment>
+`;

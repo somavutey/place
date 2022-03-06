@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar 1`] = `
+<Fragment>
+  <nav
+    className="makeStyles-navbar-1"
+  >
+    <Link
+      className="makeStyles-navbarLogo-2"
+      href="/"
+    >
+      <img
+        alt="LOGO"
+        height="110"
+        src="/LogoProject.svg"
+        width="110"
+      />
+    </Link>
+    <ul
+      className="makeStyles-navItems-3"
+    >
+      <li
+        className="makeStyles-navButton-4"
+        key="1"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <Link
+          className="makeStyles-a-5"
+          href=""
+        >
+          Activity
+        </Link>
+      </li>
+      <li
+        className="makeStyles-navButton-4"
+        key="2"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <Link
+          className="makeStyles-a-5"
+          href=""
+        >
+          Places
+        </Link>
+      </li>
+      <li
+        className="makeStyles-article-6"
+      >
+        <Link
+          href="/ArticleContent"
+        >
+          Explore Article and Videos
+        </Link>
+      </li>
+    </ul>
+    <ButtonNavbar />
+  </nav>
+</Fragment>
+`;

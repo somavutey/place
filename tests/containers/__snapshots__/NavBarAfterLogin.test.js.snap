@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrimarySearchAppBar 1`] = `
+<div>
+  <ForwardRef(Drawer)
+    anchor="right"
+    onClose={[Function]}
+    open={false}
+  >
+    <ForwardRef(List)>
+      <ForwardRef(List)
+        key="0"
+      >
+        <ForwardRef(ListItemButton)
+          className="makeStyles-drawer-5"
+          key="Favorite"
+        >
+          <Link
+            href="/"
+          >
+            Favorite
+          </Link>
+        </ForwardRef(ListItemButton)>
+      </ForwardRef(List)>
+      <ForwardRef(List)
+        key="1"
+      >
+        <ForwardRef(ListItemButton)
+          className="makeStyles-drawer-5"
+          key="Kind of Places"
+        >
+          <Link
+            href="/"
+          >
+            Kind of Places
+          </Link>
+        </ForwardRef(ListItemButton)>
+      </ForwardRef(List)>
+      <ForwardRef(List)
+        key="2"
+      >
+        <ForwardRef(ListItemButton)
+          className="makeStyles-drawer-5"
+          key="Activities"
+        >
+          <Link
+            href="/"
+          >
+            Activities
+          </Link>
+        </ForwardRef(ListItemButton)>
+      </ForwardRef(List)>
+      <ForwardRef(List)
+        key="3"
+      >
+        <ForwardRef(ListItemButton)
+          className="makeStyles-drawer-5"
+          key="Region"
+        >
+          <Link
+            href="/"
+          >
+            Region
+          </Link>
+        </ForwardRef(ListItemButton)>
+      </ForwardRef(List)>
+    </ForwardRef(List)>
+    <ForwardRef(Divider) />
+    <ForwardRef(List)>
+      <ForwardRef(List)
+        key="0"
+      >
+        <ForwardRef(ListItemButton)
+          className="makeStyles-drawer-5"
+          key="Profile"
+        >
+          <Link
+            href="/"
+          >
+            Profile
+          </Link>
+        </ForwardRef(ListItemButton)>
+      </ForwardRef(List)>
+      <ForwardRef(List)
+        key="1"
+      >
+        <ForwardRef(ListItemButton)
+          className="makeStyles-drawer-5"
+          key="Post Content"
+        >
+          <Link
+            href="/"
+          >
+            Post Content
+          </Link>
+        </ForwardRef(ListItemButton)>
+      </ForwardRef(List)>
+      <ForwardRef(List)
+        key="2"
+      >
+        <ForwardRef(ListItemButton)
+          className="makeStyles-drawer-5"
+          key="Help"
+        >
+          <Link
+            href="/"
+          >
+            Help
+          </Link>
+        </ForwardRef(ListItemButton)>
+      </ForwardRef(List)>
+      <ForwardRef(ListItemButton)
+        className="makeStyles-drawer-5"
+        onClick={[Function]}
+      >
+        Log Out
+      </ForwardRef(ListItemButton)>
+    </ForwardRef(List)>
+  </ForwardRef(Drawer)>
+  <ForwardRef(Box)
+    sx={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <ForwardRef(AppBar)
+      className="makeStyles-Appbar-1"
+      position="static"
+    >
+      <ForwardRef(Toolbar)>
+        <ForwardRef(Typography)
+          component="div"
+          noWrap={true}
+          sx={
+            Object {
+              "display": Object {
+                "sm": "block",
+                "xs": "block",
+              },
+            }
+          }
+          variant="h6"
+        >
+          <Link
+            href="./../../homepageAfterLogin"
+          >
+            <Image
+              alt="LOGO"
+              height="90%"
+              src="/LogoProject.svg"
+              width="90%"
+            />
+          </Link>
+        </ForwardRef(Typography)>
+        <Styled(div)
+          className="makeStyles-search-4"
+        >
+          <Styled(div)>
+            <Memo(ForwardRef(SearchIcon)) />
+          </Styled(div)>
+          <Styled(ForwardRef(InputBase))
+            inputProps={
+              Object {
+                "aria-label": "search",
+              }
+            }
+            placeholder="Search…"
+          />
+        </Styled(div)>
+        <ForwardRef(Box)
+          sx={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+        />
+        <ForwardRef(Box)
+          sx={
+            Object {
+              "display": Object {
+                "md": "flex",
+                "xs": "none",
+              },
+            }
+          }
+        >
+          <li
+            className="makeStyles-navButton-2"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            size="small"
+          >
+            <Link
+              href=""
+            >
+              <span>
+                Places
+              </span>
+            </Link>
+          </li>
+          <li
+            className="makeStyles-navButton-2"
+            color="inherit"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            size="small"
+          >
+            <Link
+              href=""
+            >
+              Activities
+            </Link>
+          </li>
+          <li
+            className="makeStyles-special-3"
+            color="inherit"
+            size="small"
+          >
+            <Link
+              href=""
+            >
+              Favorite
+            </Link>
+          </li>
+          <ForwardRef(Box)
+            sx={
+              Object {
+                "display": Object {
+                  "xs": "flex",
+                },
+              }
+            }
+          >
+            <li
+              className="makeStyles-special-3"
+              color="inherit"
+              size="small"
+            >
+              <Link
+                href=""
+              >
+                Region
+              </Link>
+            </li>
+          </ForwardRef(Box)>
+          <ForwardRef(IconButton)
+            aria-controls="primary-search-account-menu"
+            aria-haspopup="true"
+            aria-label="account of current user"
+            color="inherit"
+            edge="end"
+            onClick={[Function]}
+            size="large"
+            sx={
+              Object {
+                "color": "black",
+              }
+            }
+          >
+            <Memo(ForwardRef(AccountCircleIcon)) />
+          </ForwardRef(IconButton)>
+        </ForwardRef(Box)>
+        <ForwardRef(Box)
+          sx={
+            Object {
+              "display": Object {
+                "md": "none",
+                "xs": "flex",
+              },
+            }
+          }
+        >
+          <ForwardRef(IconButton)
+            aria-controls="primary-search-account-menu-mobile"
+            aria-haspopup="true"
+            aria-label="show more"
+            color="inherit"
+            size="large"
+            sx={
+              Object {
+                "color": "rgb(0, 212, 212)",
+              }
+            }
+          >
+            <Memo(ForwardRef(MenuIcon))
+              onClick={[Function]}
+            />
+          </ForwardRef(IconButton)>
+        </ForwardRef(Box)>
+      </ForwardRef(Toolbar)>
+    </ForwardRef(AppBar)>
+    <ForwardRef(Menu)
+      anchorEl={null}
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      id="primary-search-account-menu-mobile"
+      keepMounted={true}
+      onClose={[Function]}
+      open={false}
+      transformOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+    />
+    <ForwardRef(Menu)
+      anchorEl={null}
+      anchorOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+      id="primary-search-account-menu"
+      keepMounted={true}
+      onClose={[Function]}
+      open={false}
+      transformOrigin={
+        Object {
+          "horizontal": "right",
+          "vertical": "top",
+        }
+      }
+    >
+      <ForwardRef(MenuItem)
+        onClick={[Function]}
+      >
+        <Link
+          href="./../../profile_page"
+        >
+          Profile
+        </Link>
+      </ForwardRef(MenuItem)>
+      <ForwardRef(Divider) />
+      <ForwardRef(MenuItem)
+        onClick={[Function]}
+      >
+        <Link
+          href="/"
+        >
+          Post Content
+        </Link>
+      </ForwardRef(MenuItem)>
+      <ForwardRef(MenuItem)
+        onClick={[Function]}
+      >
+        <Link
+          href="/"
+        >
+          Help
+        </Link>
+      </ForwardRef(MenuItem)>
+      <ForwardRef(MenuItem)
+        onClick={[Function]}
+      >
+        <Link
+          href="/"
+        >
+          Log Out
+        </Link>
+      </ForwardRef(MenuItem)>
+    </ForwardRef(Menu)>
+  </ForwardRef(Box)>
+</div>
+`;

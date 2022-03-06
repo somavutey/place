@@ -1,0 +1,147 @@
+const placeBasedOnRegion = [
+    {
+      url: "Phnom Penh.png",
+      title: "Phnom Penh",
+      width: "24%",
+      id: "1",
+    },
+    {
+      url: "Siem Reap.png",
+      title: "Siem Reap",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Preah Sihanouke.png",
+      title: "Preah Sihanouke",
+      width: "24%",
+      id: "2",
+    },
+    {
+      url: "Kampot.png",
+      title: "Kampot",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Koh kong.png",
+      title: "Koh Kong",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Battambang.png",
+      title: "Battambang",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Mondulkiri.png",
+      title: "Mondulkiri",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Ratanakiri.png",
+      title: "Ratanakiri",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Kep.png",
+      title: "Kep",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Kampong Speu.png",
+      title: "Kampong Speu",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Kampong Thom.png",
+      title: "Kampong Thom",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Kampong Cham.png",
+      title: "Kampong Cham",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Banteay Meanchey.png",
+      title: "Banteay Meanchey",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Kampong Chnang.png",
+      title: "Kampong Chnang",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Kratié.png",
+      title: "Kratié",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Preah Vihear.png",
+      title: "Preah Vihear",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Prey Veng.png",
+      title: "Prey Veng",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Pursat.png",
+      title: "Pursat",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Stung Treng.png",
+      title: "Stung Treng",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Svay Rieng.png",
+      title: "Svay Rieng",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Takéo.jpg",
+      title: "Takéo",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Oddar Meanchey.png",
+      title: "Oddar Meanchey",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Pailin.png",
+      title: "Pailin",
+      width: "24%",
+      id: "3",
+    },
+    {
+      url: "Tboung Khmum.png",
+      title: "Tboung Khmum",
+      width: "24%",
+      id: "3",
+    }
+  ];
+  export { placeBasedOnRegion };

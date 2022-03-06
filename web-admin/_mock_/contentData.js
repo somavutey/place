@@ -1,0 +1,116 @@
+const contentData = [
+  {
+    title: "Angkor Wat",
+    province: "Siem Reap",
+    src: [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Ankor_Wat_temple.jpg/1200px-Ankor_Wat_temple.jpg",
+      "https://www.history.com/.image/t_share/MTU3ODc5MDg3MjM5Mjc1ODQ5/an-aerial-view-of-the-angkor-wat-temple-2.jpg",
+      "https://whc.unesco.org/uploads/thumbs/site_0668_0067-1200-630-20151104115852.jpg",
+      "https://a.cdn-hotels.com/gdcs/production115/d1992/501b1edc-ab74-466e-b439-2e1683041df0.jpg",
+      "https://www.visitsoutheastasia.travel/wp-content/uploads/2019/08/Cambodia-Angkor-Wat-Temple-Siem-Reap-690x400.jpg",
+      "https://cdn.theculturetrip.com/wp-content/uploads/2017/09/shutterstock_106075160.jpg",
+      "https://adventuresoflilnicki.com/wp-content/uploads/2020/04/Sunrise-Angkor-Wat-Siem-Reap-Cambodia.jpg",
+      "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/04/25/14/anghor-wat-cambodia-temple-coplex-.jpg?width=1200",
+      "https://images.fineartamerica.com/images-medium-large-5/moat-around-angkor-wat-unesco-world-david-wall.jpg",
+    ],
+    contentText:
+      "Angkor Wat, located in northwest Cambodia, is the largest religious structure in the form of a temple complex in the world by land area, measuring 162.6 hectares. At the centre of the temple stands a quincunx of four towers surrounding a central spire that rises to a height of 65 m above the ground.",
+    note: ["AngkorNote1", "AngkorNote2", "AngkorNote3"],
+    proximity: ["AngkorProximity1", "AngkorProximity2", "AngkorProximity3"],
+    address: "Krong Siem Reap, Cambodia",
+    email: "email@gmail.com",
+    phone: "012-#######",
+    facebook: "Angkor Wat",
+    app: "Angkor Watt",
+    map:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.051462702283!2d103.86479701465026!3d13.412469290567666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3110168aea9a272d%3A0x3eaba81157b0418d!2sAngkor%20Wat!5e1!3m2!1sen!2skh!4v1637991061420!5m2!1sen!2skh",
+  },
+  {
+    title: "Knong Phsar",
+    province: "Kampong Spue",
+    src: [
+      "https://www.khmerplaces.com/storage/posts/May2020/36WfY2yWwYZV6ll9icXs.jpg",
+      "https://www.khmerplaces.com/storage/posts/May2020/TWr5kUEIatKGO7ACMRu9.jpg",
+      "https://www.khmerplaces.com/storage/posts/May2020/8b8yK6z9P9zLItVUO1MW.jpg",
+      "https://avytravel.com/wp-content/uploads/2020/06/P1040924-1024x769.jpg",
+      "https://www.unseentra.com/blog/image/1591258613-Hiking-Trail-Mountain-Aural.jpg",
+      "https://www.khmerplaces.com/storage/posts/May2020/Nfnd0tok44hlgKPnlQ1x.jpg",
+      "https://www.khmerplaces.com/storage/posts/May2020/AfwhFbd07qzN6zM0rI7P.jpg",
+      "https://1.bp.blogspot.com/-NoSD2XjP-Es/XwXbtTUsJuI/AAAAAAAAAKY/q0qckBEBTJ0d8AgUecSHuY9ddByoY7bJwCK4BGAsYHg/s2048/106116968_995760610837366_8746257237707676447_o.jpg",
+      "https://avytravel.com/wp-content/uploads/2020/06/P1040757-1024x769.jpg",
+      "https://www.khmerplaces.com/storage/posts/May2020/seBqiPp6DW9Mzgjw6Vif.jpg",
+    ],
+    contentText:
+      "Knorng Psar Mountain is a large forested area located in Tang Bompong Village, Ta Sal Commune, Oral District, Kampong Spue Province. Knorng Psar is a three-way intersection that connects three provinces: Koh Kong, Kampong Spue, and Pursat. Knorng Psar is an area rich in dense forest, high valleys, lush pine forests, and rich with a variety of rare wildlife.",
+    note: ["knongPhsarNote1", "knongPhsarNote2", "knongPhsarNote3"],
+    proximity: [
+      "knongPhsarProximity1",
+      "knongPhsarProximity2",
+      "knongPhsarProximity3",
+    ],
+    address:
+      "Tang Bompong Village, Ta Sal Commune, Oral District, Kampong Spue Province, Cambodia",
+    email: "email@gmail.com",
+    phone: "012-#######",
+    facebook: "Knong Phsar",
+    app: "Knong Phsar",
+    map:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10341.889290790235!2d103.77939227101308!3d11.786344425485447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310f4d7d3f7b52f9%3A0x26cefbdab81aa69e!2sKhnang%20Phsa%20Mountain!5e1!3m2!1sen!2skh!4v1637992253315!5m2!1sen!2skh",
+  },
+  {
+    title: "Koh Rong",
+    province: "Sihanoukville",
+    src: [
+      "https://www.visitkohrong.com/wp-content/uploads/2016/07/Koh-Rong-and-Samloem-Islands-in-Cambodia-kguide-1200-x-708.jpg",
+      "https://www.tripsavvy.com/thmb/yujcBehdockTP6PM31-a1Q1T72Q=/5000x2812/smart/filters:no_upscale()/koh-rong-cambodia-61fbcd973f71491e83b5ca6e68a6b00e.jpg",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020202-0dc84a2665808e84b9a4eb7b90dea199.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+      "https://www.wanderluststorytellers.com/wp-content/uploads/2016/05/Koh-Rong-Samloem-Island-Feature.jpg",
+      "https://www.gocambodia.tours/wp-content/uploads/2018/09/Koh-Rong-Samloem-cambodia-tours.jpg",
+      "https://img.traveltriangle.com/blog/wp-content/uploads/2019/01/Koh-Rong-cover.jpg",
+      "https://hannahandtomaroundtheworld.files.wordpress.com/2016/06/img_20160610_215814.jpg?w=2000&h=1500&crop=1",
+      "https://images.squarespace-cdn.com/content/v1/53806bd1e4b08791cb6d533f/1522933154863-OXDY3U2CBYWY420CI2H9/KohRongS_TBN1.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53172b1be4b0cc8a5401db4a/1589653672327-5CIC9VJ1DEPW3JF5RRCL/2L1A5139.jpg?format=2500w",
+      "https://static.saltinourhair.com/wp-content/uploads/2016/07/23165123/cambodia-island-kohrong-sunset-beach.jpg",
+    ],
+    contentText:
+      "Koh Rong is an island in the Sihanoukville Province of Cambodia. It’s known for its sandy coves and coral reefs, like those around Koh Rong Pier. Inland, the dense jungle terrain is dotted with coconut palms and waterfalls. In the south are Jewelorchids, a small zoo home to butterflies, snakes, and birds, and lively Police Beach, a party spot. High Point Rope Park has suspension bridges, rope walks and zip lines.",
+    note: ["kohRongnote1", "kohRongnote2", "kohRongnote3"],
+    proximity: ["kohRongproximity1", "kohRongproximity2", "kohRongproximity3"],
+    address:
+      "Sangkat Koh Rong, Mittakpheap district, Sihanoukville Province, Cambodia",
+    email: "email@gmail.com",
+    phone: "012-#######",
+    facebook: "Koh Rong",
+    app: "Koh Rong",
+    map:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143128.77296485638!2d103.14659993611475!3d10.724394590983511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3107c1eb6f5622a1%3A0x836af75a469a1d58!2sKoh%20Rong!5e1!3m2!1sen!2skh!4v1638003811606!5m2!1sen!2skh",
+  },
+  {
+    title: "AEON Mall Sen Sok City",
+    province: "Phnom Penh",
+    src: [
+      "http://bodaiju-residences.com/wp-content/uploads/2018/06/IMG_3406.jpg",
+      "http://bodaiju-residences.com/wp-content/uploads/2018/06/IMG_3403.jpg",
+      "https://aeonmallcambodia.com/wp-content/uploads/2021/03/DJI_0183.jpg",
+      "https://images.realestate.com.kh/blog/PjRMvGrQnME0BkPvGsMNWka9Q5063N5HwWsw0wQQmYJAXzqO26bqYJTdOfxEb-vEB1x9JTF6NXRpdLGeloePbuC6sEjAD7rzc_nRW18hzje8ihslsqMEzRxwAsSa8oXfv4Csr8oB.jpeg",
+      "https://news.khbmedia.asia/uploads/wp-content/uploads/2018/07/aeon2-c.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/48/AEON_MALL_PHNOM_PENH_010.JPG",
+      "https://live.staticflickr.com/65535/49135771292_5fbd2949ed_b.jpg",
+      "https://www.endo-lighting.com/endocms/wp-content/uploads/2020/09/aeonmall_sensokcity_5.jpg",
+      "https://academy.reveresgroup.com/wp-content/uploads/2018/11/AEON-1130x650.jpg",
+      "https://fastly.4sqi.net/img/general/600x600/119144679_bsJnVx5oytqDX5ZR3pbOHZ4eeg0Vjf74SRLE83oDawQ.jpg",
+    ],
+    contentText:
+      "Stylish, modern retail center with 100+ shops, plus carnival games, indoor soccer, movies & more.",
+    note: ["Aeonnote1", "Aeonnote2", "Aeonnote3"],
+    proximity: ["Aeonproximity1", "Aeonproximity2", "Aeonproximity3"],
+    address: "t No. 1003 Village Bayab Commune, Phnom Penh, Cambodia",
+    email: "email@gmail.com",
+    phone: "012-#######",
+    facebook: "Aeon Mall Sen Sok",
+    app: "Aeon Mall Sen Sok",
+    map:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1963.667462253369!2d104.8835954659058!3d11.599529060401004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109522e1adbf683%3A0x3f4395cd35ec9617!2sAEON%20Mall%20Sen%20Sok%20City!5e1!3m2!1sen!2skh!4v1638004668510!5m2!1sen!2skh",
+  },
+];
+export { contentData };

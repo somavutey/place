@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlaceDropdown 1`] = `
+<Fragment>
+  <ul
+    className="makeStyles-servicesSubmenu-1"
+    onClick={[Function]}
+  >
+    <li
+      className="makeStyles-li-2"
+      key="1"
+    >
+      <Link
+        href="./../../../FilterPagesAfterLogin"
+        onClick={[Function]}
+      >
+        Outdoor
+      </Link>
+    </li>
+    <li
+      className="makeStyles-li-2"
+      key="2"
+    >
+      <Link
+        href="./../../../FilterPagesAfterLogin"
+        onClick={[Function]}
+      >
+        Indoor
+      </Link>
+    </li>
+    <li
+      className="makeStyles-li-2"
+      key="3"
+    >
+      <Link
+        href="./../../../FilterPagesAfterLogin"
+        onClick={[Function]}
+      >
+        Modern
+      </Link>
+    </li>
+    <li
+      className="makeStyles-li-2"
+      key="4"
+    >
+      <Link
+        href="./../../../FilterPagesAfterLogin"
+        onClick={[Function]}
+      >
+        Natural
+      </Link>
+    </li>
+    <li
+      className="makeStyles-li-2"
+      key="oo1"
+    >
+      <Link>
+        Logout
+      </Link>
+    </li>
+  </ul>
+</Fragment>
+`;

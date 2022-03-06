@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterComponent 1`] = `
+<Link
+  href="#"
+>
+  <a
+    className="makeStyles-footerSub-1"
+  />
+</Link>
+`;

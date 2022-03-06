@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivityDropdown 1`] = `
+<Fragment>
+  <ul
+    className="makeStyles-servicesSubmenu-1"
+    onClick={[Function]}
+  >
+    <li
+      className="makeStyles-li-2"
+      key="1"
+    >
+      <Link
+        href="./../../../FilterPagesBeforeLogin"
+        onClick={[Function]}
+      >
+        Shopping
+      </Link>
+    </li>
+    <li
+      className="makeStyles-li-2"
+      key="2"
+    >
+      <Link
+        href="./../../../FilterPagesBeforeLogin"
+        onClick={[Function]}
+      >
+        Swimming
+      </Link>
+    </li>
+    <li
+      className="makeStyles-li-2"
+      key="3"
+    >
+      <Link
+        href="./../../../FilterPagesBeforeLogin"
+        onClick={[Function]}
+      >
+        Eating
+      </Link>
+    </li>
+    <li
+      className="makeStyles-li-2"
+      key="4"
+    >
+      <Link
+        href="./../../../FilterPagesBeforeLogin"
+        onClick={[Function]}
+      >
+        Hiking
+      </Link>
+    </li>
+  </ul>
+</Fragment>
+`;

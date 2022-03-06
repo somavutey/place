@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dots 1`] = `
+<div
+  css={
+    Array [
+      "
+      position: absolute;
+      bottom: 25px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    ",
+    ]
+  }
+/>
+`;

@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupSocialMediaIcons 1`] = `
+<div>
+  <ForwardRef(Grid)
+    container={true}
+    justifyContent="center"
+  >
+    <ForwardRef(Grid)
+      item={true}
+      xs={1.5}
+    >
+      <ForwardRef(Link)
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Memo(ForwardRef(FacebookIcon))
+          style={
+            Object {
+              "height": 45,
+              "width": 45,
+            }
+          }
+        />
+      </ForwardRef(Link)>
+    </ForwardRef(Grid)>
+    <ForwardRef(Grid)
+      item={true}
+      xs={1.5}
+    >
+      <ForwardRef(Link)
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Memo(ForwardRef(EmailIcon))
+          style={
+            Object {
+              "height": 45,
+              "width": 45,
+            }
+          }
+        />
+      </ForwardRef(Link)>
+    </ForwardRef(Grid)>
+    <ForwardRef(Grid)
+      item={true}
+      xs={1.5}
+    >
+      <ForwardRef(Link)
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Memo(ForwardRef(LinkedInIcon))
+          style={
+            Object {
+              "height": 45,
+              "width": 45,
+            }
+          }
+        />
+      </ForwardRef(Link)>
+    </ForwardRef(Grid)>
+  </ForwardRef(Grid)>
+</div>
+`;

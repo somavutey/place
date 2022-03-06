@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer 1`] = `
+<div>
+  <div
+    className="makeStyles-footer-1"
+  >
+    <ForwardRef(Grid)
+      container={true}
+      spacing={2}
+    >
+      <ForwardRef(Grid)
+        item={true}
+        sm={4}
+        xs={12}
+      >
+        <ForwardRef(Typography)
+          className="makeStyles-footerTitle-2"
+          variant="h3"
+        >
+          More activities
+        </ForwardRef(Typography)>
+        <FooterListComponent
+          key="0"
+        >
+          Shopping
+        </FooterListComponent>
+        <FooterListComponent
+          key="1"
+        >
+          Sightseeing
+        </FooterListComponent>
+        <FooterListComponent
+          key="2"
+        >
+          Eating & Drinkning
+        </FooterListComponent>
+        <FooterListComponent
+          key="3"
+        >
+          Learning 
+        </FooterListComponent>
+        <FooterListComponent
+          key="4"
+        >
+          Entertaining
+        </FooterListComponent>
+      </ForwardRef(Grid)>
+      <ForwardRef(Grid)
+        item={true}
+        sm={4}
+        xs={12}
+      >
+        <ForwardRef(Typography)
+          className="makeStyles-footerTitle-2"
+          variant="h3"
+        >
+          More activities
+        </ForwardRef(Typography)>
+        <FooterListComponent
+          key="0"
+        >
+          Modern
+        </FooterListComponent>
+        <FooterListComponent
+          key="1"
+        >
+          History
+        </FooterListComponent>
+        <FooterListComponent
+          key="2"
+        >
+          Outdoor
+        </FooterListComponent>
+        <FooterListComponent
+          key="3"
+        >
+          Indoor
+        </FooterListComponent>
+        <FooterListComponent
+          key="4"
+        >
+          Nature
+        </FooterListComponent>
+        <FooterListComponent
+          key="5"
+        >
+          Event
+        </FooterListComponent>
+      </ForwardRef(Grid)>
+      <ForwardRef(Grid)
+        item={true}
+        sm={4}
+        xs={12}
+      >
+        <ForwardRef(Typography)
+          className="makeStyles-footerTitle-2"
+          variant="h3"
+        >
+          More activities
+        </ForwardRef(Typography)>
+        <FooterListComponent
+          key="0"
+        >
+          Kampot
+        </FooterListComponent>
+        <FooterListComponent
+          key="1"
+        >
+          Sihanouk Ville
+        </FooterListComponent>
+        <FooterListComponent
+          key="2"
+        >
+          Koh Kong
+        </FooterListComponent>
+        <FooterListComponent
+          key="3"
+        >
+          Kep
+        </FooterListComponent>
+        <FooterListComponent
+          key="4"
+        >
+          Kratie
+        </FooterListComponent>
+        <FooterListComponent
+          key="5"
+        >
+          Kampong Cham
+        </FooterListComponent>
+      </ForwardRef(Grid)>
+      <ForwardRef(Grid)
+        item={true}
+        lg={12}
+        sm={12}
+        xs={12}
+      >
+        <hr
+          style={
+            Object {
+              "backgroundColor": "black",
+              "border": "none",
+              "height": 3,
+            }
+          }
+        />
+      </ForwardRef(Grid)>
+      <ForwardRef(Grid)
+        item={true}
+        lg={6}
+        sm={6}
+        textAlign="center"
+        xs={6}
+      >
+        <ForwardRef(Typography)
+          color="#000"
+          style={
+            Object {
+              "fontSize": "clamp(1rem,1.5vw,2rem)",
+              "fontWeight": "bold",
+            }
+          }
+          variant="h5"
+        >
+          CONTACT US!
+        </ForwardRef(Typography)>
+      </ForwardRef(Grid)>
+      <ForwardRef(Grid)
+        item={true}
+        lg={6}
+        sm={6}
+        textAlign="center"
+        xs={6}
+      >
+        <Link
+          href="#"
+        >
+          <a
+            style={
+              Object {
+                "color": "#000",
+                "display": "block",
+                "fontSize": "clamp(1rem,1.5vw,2rem)",
+                "fontWeight": "bold",
+                "lineHeight": 1.235,
+                "textDecoration": "underline",
+              }
+            }
+          >
+            ABOUT US!
+          </a>
+        </Link>
+      </ForwardRef(Grid)>
+      <ForwardRef(Grid)
+        container={true}
+        style={
+          Object {
+            "margin": "50px 100px",
+          }
+        }
+      >
+        <ForwardRef(Grid)
+          item={true}
+          md={4}
+          sm={4}
+          xs={12}
+        >
+          <ForwardRef(Typography)
+            className="makeStyles-contact-4"
+          >
+            2007st Kakab, Khan Puthisen Chey, Phnom Penh
+          </ForwardRef(Typography)>
+        </ForwardRef(Grid)>
+        <ForwardRef(Grid)
+          item={true}
+          md={2}
+          sm={4}
+          xs={12}
+        >
+          <ForwardRef(Typography)
+            className="makeStyles-contact-4"
+          >
+            +855 10 46 61 47
+          </ForwardRef(Typography)>
+        </ForwardRef(Grid)>
+        <ForwardRef(Grid)
+          item={true}
+          md={2}
+          sm={4}
+          xs={12}
+        >
+          <ForwardRef(Typography)
+            className="makeStyles-contact-4"
+          >
+            @Place
+          </ForwardRef(Typography)>
+        </ForwardRef(Grid)>
+      </ForwardRef(Grid)>
+    </ForwardRef(Grid)>
+  </div>
+</div>
+`;

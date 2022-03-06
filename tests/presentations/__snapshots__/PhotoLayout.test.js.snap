@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotoLayout 1`] = `
+<div
+  style={
+    Object {
+      "margin": "20px 0",
+    }
+  }
+>
+  <ForwardRef(Box)
+    sx={
+      Object {
+        "borderRadius": "50px",
+        "height": 450,
+        "overflowY": "scroll",
+        "width": "100%",
+      }
+    }
+  >
+    <ForwardRef(ImageList)
+      cols={2}
+      gap={8}
+      variant="masonry"
+    />
+  </ForwardRef(Box)>
+</div>
+`;
