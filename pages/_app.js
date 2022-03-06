@@ -1,4 +1,4 @@
-import Script from "next/script";
+
 import "../styles/globals.css";
 import { AuthUserProvider } from "../Homework/AuthUserContext";
 import { RecoilRoot } from "recoil";
