@@ -1,9 +1,10 @@
 import MultipleSelect from "../components/presentations/SearchBar";
 import { makeStyles } from "@mui/styles";
 import Navbar from "../components/containers/NavBar";
-import Footer from "./../components/containers/Footer";
+import Footer from "../components/containers/Footer";
 import CardInHomepage from "../components/presentations/ContentContainer/ContentContainer";
-
+import { readJsonFile } from ".";
+import { read } from ".";
 const useStyle = makeStyles({
   picture: {
     position: "relative",
@@ -32,12 +33,13 @@ const useStyle = makeStyles({
     fontSize: "55px",
   },
 });
-
 export default function New() {
   const classes = useStyle();
   return (
     <div>
+      <read></read>
       <Navbar />
+
       <div className={classes.swipe}>
         <picture>
           <source
